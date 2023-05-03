@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pàgina web de aprendizaje</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 11px;
+  background-image: url('nubes1.jpg');
+  background-size: cover;
+}
+
+.header {
+  background-image: url('p2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 20px;
+  text-align: center;
+  color:white; 
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: right;
+  padding: 11px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 30%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+iframe {
+    width: 100%;
+    height: calc(100vh - 160px);
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Pádel</h1>
+  <p> Un deporte que engancha
+  </p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Temas</a>
+  <a href="#">About</a>
+</div>
+  
+    <div class="column side">
+    <h2>Què es el pádel?</h2>
+    <p>El pádel es un deporte de raqueta o de pala. Básicamente es un deporte cooperativo entre dos jugadores que se enfrentan a otra pareja en una pista de pádel de unos20 metros de largo por 10 de ancho, totalmente cerrada y dividida por una red.
+
+<br>Este deporte de raqueta nació en México en 1969, tuvo mucho auge en Argentina y actualmente es el deporte de moda en Europa</p>
+  </div>
+  
+   <div class="column middle">
+    <h2>Uno de los deportes mas populares</h2>
+    <p>El pádel es un deporte que surgió en 1969 y su nacimiento tuvo una gran aceptación entre todos sus practicantes. Estos últimos años, cada vez oímos hablar más del pádel y es que ha conseguido llegar a ser el segundo deporte más practicado en España, después del fútbol. ¿te lo puedes llegar a imaginar?
+
+Este deporte, se describe como un deporte de raqueta o pala, de cooperación (juegas con otro compañero) y oposición (pareja contrincante). También podemos encontrar alguna que otra pista de pádel individual.
+
+A parte de ser divertido y dinámico y poder practicarse con amigos, el pádel es un deporte que se suele aprender rápido. Puedes llegar rápidamente a un nivel que te permite divertirte, no requiere habilidades complejas para alcanzar un nivel medio (aunque debes tener una buena forma física).
+
+El éxito del pádel también se debe a la disponibilidad de las pistas. Las pistas de pádel ocupan poco más de 200 metros cuadrados, y en este espacio, pueden jugar 4 personas. A comparación de otros deportes como el tenis, el fútbol o el fútbol sala, el pádel ocupa menos espacio por persona. Gracias a sus dimensiones reducidas, las pistas de pádel suelen ser asequibles y perfectas para complementar ubicaciones y clubes con un espacio limitado.</p>
+  </div>
+  
+  <!--ESTO ES LO QUE HAY  QUE MODIFICAR-->
+<div class="column side"> 
+  <ul>
+  <li><a href="https://www.w3schools.com/html/html_blocks.asp" target="iframe middle">HTML Blocks and In-lines</a></li>
+  <li><a href="https://www.w3schools.com/html/html_classes.asp" target="_blank">HTML Clases</a></li>
+  <li><a href="https://www.w3schools.com/html/html_id.asp" target="_blank">HTML Id</a></li>
+  <li><a href="https://www.w3schools.com/html/html_filepaths.asp" target="_blank">HTML File Paths</a></li>
+  <li><a href="https://www.w3schools.com/html/html_scripts.asp" target="_blank">HTML JavaScript</a></li>
+  <li><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">HTML Tablas</a></li>
+  <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">HTML Listas</a></li>
+  <li><a href="#" target="_blank">Alta Clients</a></li>
+  <li><a href="#" target="_blank">Comandes de Clients</a></li>
+</ul> 
+</div>
+</div>  
+<div class="column side" class="column middle">
+  <iframe src="column side" name="iframe middle" height="600" width="100%" title="Iframe" name="Iframe"></iframe>
+</div>
+<!--<div class="right-column">
+    <iframe src="https://www....." frameborder="0" allow="autoplay; encrypted-media" allowfullscreen name="content-iframe"></iframe>
+  </div> -->
+<div class="footer">
+  
+  </div> 
+</body>
+</html>
